@@ -1,0 +1,21 @@
+{
+ "name": "Freedom Ferret",
+ "short_name": "Freedom Ferret",
+ "description": "Watching Shelby County government meetings",
+ "start_url": "./",
+ "display": "browser",
+ "theme_color": "#1f4e79",
+ "background_color": "#ffffff",
+ "icons": [
+  {
+   "src": "static/img/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "static/img/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  }
+ ]
+}
