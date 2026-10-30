@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search agendas | Freedom Ferret</title>
+<meta name="description" content="Agendas and schedules of public bodies in Shelby County, Tennessee, compiled from official public postings.">
+<link rel="icon" href="../static/img/favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" type="image/png" sizes="32x32" href="../static/img/icon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../static/img/icon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../static/img/apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+<meta name="theme-color" content="#1f4e79">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Freedom Ferret">
+<meta property="og:title" content="Search agendas | Freedom Ferret">
+<meta property="og:description" content="Watching Shelby County government meetings. Agendas and schedules of public bodies in Shelby County, Tennessee, compiled from official public postings.">
+<meta property="og:url" content="https://millsdo.github.io/shelby-county-watch/search/index.html">
+<meta property="og:image" content="https://millsdo.github.io/shelby-county-watch/static/img/og-image.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Freedom Ferret mascot: a ferret in a tricorn hat holding a magnifying glass and a stack of agendas">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Search agendas | Freedom Ferret">
+<meta name="twitter:description" content="Watching Shelby County government meetings">
+<meta name="twitter:image" content="https://millsdo.github.io/shelby-county-watch/static/img/og-image.png">
+<link rel="stylesheet" href="../static/style.css">
+<script>window.SITE_ROOT = "../";</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site"><div class="wrap">
+<a class="brand" href="../index.html"><img class="logo" src="../static/img/logo-240.png" srcset="../static/img/logo-240.png 1x, ../static/img/logo-480.png 2x" alt="" width="60" height="48"><span class="bt"><span class="name">Freedom Ferret</span><span class="sub">Watching Shelby County government meetings</span></span></a>
+<nav aria-label="Main"><a href="../index.html">Home</a><a href="../reports/index.html">Reports</a><a href="../agendas/index.html">Agendas</a><a href="../boards/index.html">Boards</a><a href="../search/index.html" aria-current=page>Search</a><a href="../redflags/index.html">Red Flags</a><a href="../about/index.html">About</a></nav></div></header>
+<main id="main" class="wrap">
+<h1>Search agendas</h1>
+<form id="sform" class="sform" role="search" onsubmit="return false">
+<div class="row"><label for="q" class="vh">Search text</label><input id="q" type="search" placeholder="Words or phrases in agenda text" autocomplete="off"><button id="go" type="submit">Search</button></div>
+<div class="filters">
+<label>Government <select id="fgov"><option value="">All</option></select></label>
+<label>Body <select id="fbody"><option value="">All</option></select></label>
+<label>From <input id="ffrom" type="date"></label>
+<label>To <input id="fto" type="date"></label>
+<label>Watch-list category <select id="fcat"><option value="">Any</option></select></label>
+<button type="button" id="clear" class="secondary">Clear</button>
+</div></form>
+<section class="cats"><h2>Watch-list category reports</h2><p class="muted">Show every agenda line matching a category's keywords (respects the government, body, and date filters above). Numbers are total matching lines.</p><div class="catbtns"><button type="button" class="catbtn" data-cat="taxes-fees-and-debt">Taxes, fees, and debt <span>204</span></button><button type="button" class="catbtn" data-cat="tax-breaks-and-corporate-incentives">Tax breaks and corporate incentives <span>171</span></button><button type="button" class="catbtn" data-cat="spending-contracts-and-grants">Spending, contracts, and grants <span>278</span></button><button type="button" class="catbtn" data-cat="dei-and-identity-programs">DEI and identity programs <span>16</span></button><button type="button" class="catbtn" data-cat="gender-sexuality-and-schools">Gender, sexuality, and schools <span>55</span></button><button type="button" class="catbtn" data-cat="policing-crime-and-public-safety">Policing, crime, and public safety <span>5</span></button><button type="button" class="catbtn" data-cat="land-use-property-rights-and-growth">Land use, property rights, and growth <span>1373</span></button><button type="button" class="catbtn" data-cat="climate-and-environment">Climate and environment <span>51</span></button><button type="button" class="catbtn" data-cat="elections-and-government-transparency">Elections and government transparency <span>125</span></button><button type="button" class="catbtn" data-cat="health-and-mandates">Health and mandates <span>3</span></button><button type="button" class="catbtn" data-cat="federal-state-and-regional-entanglements">Federal, state, and regional entanglements <span>21</span></button></div></section>
+<div id="status" role="status" aria-live="polite"></div>
+<div id="results"></div>
+<noscript><p>Search needs JavaScript. You can browse <a href="../agendas/index.html">all agendas</a> without it.</p></noscript>
+<script src="../static/search.js" type="module"></script>
+</main>
+<footer class="site"><div class="wrap">
+<p>All meeting information on this site comes from official public postings by the governments and boards listed in the
+<a href="../boards/index.html">Boards directory</a>, which links to each official agenda page. Agenda text is machine-extracted and may contain errors;
+always check the official posting (linked on every agenda) before relying on it.
+This is an independent compilation of public records, not an official government site.</p>
+<p>Freedom Ferret: watching shelby county government meetings. Updated Oct 30, 2026, 7:37 AM CT. 70 agenda documents · 92 public bodies tracked.</p>
+</div></footer>
+</body></html>
